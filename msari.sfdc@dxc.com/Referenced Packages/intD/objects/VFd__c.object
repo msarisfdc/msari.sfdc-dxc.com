@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Description__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The List is under the recent list table, and comes when the default landing page for an Object.
+It contains a table of records which you have viewed recently. Once applied, an empty area will be displayed at the table&apos;s place.</inlineHelpText>
+        <label>Hide The data from recent lists</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hide_Dashboard_Refresh__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Hide Dashboard Refresh</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HorizontalDropDown__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Sets the Elements of the Drop Down Menus to be displayed Horizontally.  Select it to see what it does exactly.</inlineHelpText>
+        <label>Horizontal DropDown Menus</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HotListElement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The table under recent list table. It contains datacells</inlineHelpText>
+        <label>Hide The data from recent lists</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Left__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The Company&apos;s logo is displayed on the left hand side on header of Standard and Customized VF ages</inlineHelpText>
+        <label>Hide The Company&apos;s Logo</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MasterLabel__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The table under recent list table. It contains datacells</inlineHelpText>
+        <label>Hide The data from recent lists</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SearchCell__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The Search All bar is displayed on the header of standard and Customized VF pages.</inlineHelpText>
+        <label>Hide the Search All box</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tab_Bar_Background_hex__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter value in Hexadecimal format only. You can ignore the # prefix</inlineHelpText>
+        <label>Tab Bar Background Hex</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VF_Page_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>VF Page Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>addCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>You can provide extra code here. It would be appended to the code being generated. For eg: 
+code given below changes the VF page buttons to Blue
+button,.btn,.btnImportant,.btnDisabled,.btnCancel
+{
+background:rgba(239, 247, 251, .7) none !important;
+}</inlineHelpText>
+        <label>Additional Code</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>addGoogleTranslateElements__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this option to add a broader, instant and true multilingual support for your Org. For more information about it visit: http://translate.google.com/translate_tools</inlineHelpText>
+        <label>Add Google Translate Elements</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>allTabsArrow__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The Show All Tabs link is displayed at the end of the Tabs</inlineHelpText>
+        <label>Hide The Show all Tabs Plus Sign</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>bFilterView__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The drop down list just above the recent records list to select a enhanced list for viewing records on an Object. It appears in all the tabs by default.</inlineHelpText>
+        <label>Hide Enhanced List selection options</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>cTOB__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Default Value: Checked
+Check this option to make sure the page is compatible with Older Browsers (Internet Explorer ver:6,7, and 8). These browsers do not support recent versions of HTML and CSS, and additional workaround is required to fix the issue.</inlineHelpText>
+        <label>Compatiable to Old Browsers</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>casfe__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>: 3</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Values would be applied to style every component of a page, which do not have a style selected.
+In case the checkbox &apos;Use One style for everything&apos; is selected, this style overrides every style</inlineHelpText>
+        <label>For everything</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Choose a Style for everything)</relationshipLabel>
+        <relationshipName>VFDesignerEverything</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>csfbb__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>: 1</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A look-up field for Style, values would be applied to style the background body</inlineHelpText>
+        <label>For Body and Background</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Choose Style for Background Body)</relationshipLabel>
+        <relationshipName>VF_Designer_body</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>csfct__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>A look-up field for Style, values would be applied to style the Current tab.</inlineHelpText>
+        <label>For Current tab</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Choose Style for Current tab)</relationshipLabel>
+        <relationshipName>csfct</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>csfddm__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>A look-up field for Style, values would be applied to style the following:
+Drop Down menus.
+Calendar and windows Popups.
+Help frame.
+Mini Console View.</inlineHelpText>
+        <label>For Drop Down menus and popup windows</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Choose Style for Drop Down menus)</relationshipLabel>
+        <relationshipName>VFDesignerDropDown</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>csfhnf__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The field name is created using the first letter of all the words from the field label. In case two names match, a number will be added at the end.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose the Style for Header of the page. A look-up field for Style, values would be applied to style the header for a page.</inlineHelpText>
+        <label>For Page Header and footer</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer</relationshipLabel>
+        <relationshipName>VF_Designer</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>csfl__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>: 4</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A look-up field for Style, values would be applied to style the Lists, Enhanced lists, any tables, and the standard detail/edit page that show information..</inlineHelpText>
+        <label>For List&apos;s Details</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Choose Style for Lists)</relationshipLabel>
+        <relationshipName>VF_Designer_Lists</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>csflh__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Include elements:
+h1, h2, h3, h4, h5, h6</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A look-up field for Style, values would be applied to style the table and List headers on a page. 
+The sidebar component will also use the value to style its headers.</inlineHelpText>
+        <label>For List Headers</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (For List Headers)</relationshipLabel>
+        <relationshipName>VF_Designer1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>csfs__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The field name is created using the first letter of all the words from the field label. In case two names match, a number will be added at the end.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose a style for the Sidebar</inlineHelpText>
+        <label>For Sidebar</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>Sidebars using this style</relationshipLabel>
+        <relationshipName>VFDesignerSidebar</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>csft__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>A look-up field for Style, values would be applied to style  the Tabs.</inlineHelpText>
+        <label>For tabs</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Choose Style for tabs)</relationshipLabel>
+        <relationshipName>VF_Designer_Tabs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>csftlb__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>: 2</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A look-up field for Style, values would be applied to style the text fields, links, and buttons of the table.</inlineHelpText>
+        <label>For Text,Links and buttons</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Choose Style for Footer)</relationshipLabel>
+        <relationshipName>VF_Designer2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ensure5Format__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>DOCTYPE and some metadata information in the page&apos;s declaration is added in theVF Page. 
+Selecting this option will make the page render in html5 format. Essentially, the &lt;!DOCTYPE HTML&gt; is inserted as the first line of the Visualforce Page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Though html5 (http://en.wikipedia.org/wiki/HTML5) is under development, its the latest advancement in webpage content presentation, supported by new browsers, tablets and smartphones. 
+Check your browser&apos;s compatibility for html5 at http://html5test.com</inlineHelpText>
+        <label>Ensure Html5 format</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>fcg__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>CarboniteCCPack__fcg__c will stop the code being generated by the trigger.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Stop the code from being generated automatically.
+Code in the fields: VF Page code, VF Component code, and Sidebar component code
+is generated automatically every time a record is inserted or edited.
+Select this option to customize the code yourself.</inlineHelpText>
+        <label>Freeze Code Generation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>fixCompanysLogo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this option to fix/stick the Setup drop down panel and Apps drop down panel at the top of window all the time. It will stay on that position as it is fixed to the browser window.</inlineHelpText>
+        <label>Fix Company&apos;s Logo</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>fixTabBarAt__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the location at which the Tab Bar should be fixed.</inlineHelpText>
+        <label>Fx Tab Bar at</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>fixTabBar__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default Place</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Page Top</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Page Bottom</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>Default Place</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>Page Top</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>Page Bottom</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>fixTabBar__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this option to fix/stick the Tab Bar at the top of window all the time. 
+It will stay on that position as it is fixed to the browser window.</inlineHelpText>
+        <label>Fix Tab Bar</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>fixTheSearchBox__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this option will make the Search box stay on a fixed position on the page, as it is fixed to the browser window.
+Even when you scroll down to the bottom of the page, you would still see the Search box.</inlineHelpText>
+        <label>Fix the Search box</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>fixUserMenu__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Select this option to fix/stick the Tab Bar at the top of window all the time.
+It will stay on that position as it is fixed to the browser window.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this option to fix/stick the Setup drop down panel and Apps drop down panel  at the top of window all the time. It will stay on that position as it is fixed to the browser window.</inlineHelpText>
+        <label>Fix User drop down panel</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>gcfsc__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Creates a new Homepage component after the record is saved.</inlineHelpText>
+        <label>Generate code for SidebarComponent</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>gcfvfc__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this option to get the Visualforce component code created.</inlineHelpText>
+        <label>Generate code for Visualforce Component</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>gcfvp__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this option for generating a new Visualforce page code.</inlineHelpText>
+        <label>Generate code for Visualforce Page</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>gscas__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this option to generate Style Code after saving. It can be used in Sidebar components as well.</inlineHelpText>
+        <label>Generate Style Code after Saving</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>home_Tab__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Hides the Home tab from the other tabs. 
+Note: It just hides the tab. User can still view the Home tab page, if it is set as his Default Landing tab.</inlineHelpText>
+        <label>Hide the Home tab</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>hsfbb__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the style which should be displayed when the mouse is over the  component.</inlineHelpText>
+        <label>Hover Style for Body and Background</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Hover Style for Body Background)</relationshipLabel>
+        <relationshipName>VF_Designer3</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hsfct__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the style which should be displayed when the mouse is over the component.</inlineHelpText>
+        <label>Hover Style for Current tab</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Hover Style for Current tab)</relationshipLabel>
+        <relationshipName>VF_Designer4</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hsfddm__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the style which should be displayed when the mouse is over the component.</inlineHelpText>
+        <label>Hover Style for Drop Down Menus</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Hover Style for Drop Down Menus)</relationshipLabel>
+        <relationshipName>VF_DesignerK6bh</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hsfe__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the style which should be displayed when the mouse is over the component.</inlineHelpText>
+        <label>Hover Style for Everything</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Hover Style for Everything)</relationshipLabel>
+        <relationshipName>VF_Designer7</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hsfhnf__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the style which should be displayed when the mouse is over the component.</inlineHelpText>
+        <label>Hover Style for Page Header and Footer</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Hover Style for Header and Footer)</relationshipLabel>
+        <relationshipName>VF_Designer_hnfH</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hsfl__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the style which should be displayed when the mouse is over the component.</inlineHelpText>
+        <label>Hover Style for Lists and Details</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Hover Style for List and Details)</relationshipLabel>
+        <relationshipName>VF_Designer9</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hsflh__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the style which should be displayed when the mouse is over the component.</inlineHelpText>
+        <label>Hover Style for List Headers</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Hover Style for List Headers)</relationshipLabel>
+        <relationshipName>VF_Designer8</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hsfs__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the style which should be displayed when the mouse is over the component.</inlineHelpText>
+        <label>Hover Style for Sidebar</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Hover Style for Sidebar)</relationshipLabel>
+        <relationshipName>VF_Designer5</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hsft__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the style which should be displayed when the mouse is over the  component.</inlineHelpText>
+        <label>Hover Style for tabs</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Hover Style for tabs)</relationshipLabel>
+        <relationshipName>VF_Designer_TabsH</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hsftlb__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the style which should be displayed when the mouse is over the component.</inlineHelpText>
+        <label>Hover Style for text links and buttons</label>
+        <referenceTo>Style__c</referenceTo>
+        <relationshipLabel>VF Designer (Hover Style for text body and Links)</relationshipLabel>
+        <relationshipName>VF_Designer6</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>makeTextMoreVisible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Creates a translucent (Opacity 40% /Alpha .4) black background behind the text labels links and buttons for better readability.
+You can change the color/transparency level once the code has been generated by searching for text:&quot;MAKING TEXT MORE VISIBLE&quot;</inlineHelpText>
+        <label>Make text more visible</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>rbo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this option to remove the Borders present on a standard or a Visualforce page. By default, the borders are displayed on Input/Output fields, Menu Items, page sections, etc.</inlineHelpText>
+        <label>Remove Borders</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>rwba__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this option to remove the Background present on a standard / custom Visualforce page. By default, a bluish background is displayed under the page header and white background is displayed under the main body etc.</inlineHelpText>
+        <label>Remove Background</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sc__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The Stylesheet code (used in .CSS files), which can be used on other VF Pages. 
+The Limit is 32,768 characters.</inlineHelpText>
+        <label>Style Code</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>scc__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The code for a Sidebar component. It can be used by going to Setup | App Setup | Customize | Home | Home Page Components.</inlineHelpText>
+        <label>Sidebar Component Code</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>toolsContentLeft__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Hide Reporting options from an Object&apos;s default landing page</inlineHelpText>
+        <label>Hide The Report generating section</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>toolsContentRight__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Hide Mass Action options from an Object&apos;s default landing page</inlineHelpText>
+        <label>Hide The Mass Action section</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>vfcc__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The code for a Visualforce component. It can be used by going to Setup | App Setup | Develop | Components.</inlineHelpText>
+        <label>VF Component Code</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>vfpc__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Will display the VF Page code according to the options selected by you</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Will display the VF Page code according to the options selected by you</inlineHelpText>
+        <label>VF page code</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>yourTwitterAccount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter your Twtter Account&apos;s Username, and we will create a follow me tab / button for your Account automatically, which will always be displayed on the page. This might be helpful to your Portal users.</inlineHelpText>
+        <label>Your Twitter Account</label>
+        <length>66</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>VF Designer</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All1</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Design Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>VF Designer</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>No_Special_Characters_in_Name</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(CONTAINS( Name , &quot;`&quot;),  CONTAINS( Name , &quot;~&quot;), CONTAINS( Name , &quot;!&quot;), CONTAINS( Name , &quot; &quot;), CONTAINS( Name , &quot;@&quot;), CONTAINS( Name , &quot;#&quot;), CONTAINS( Name , &quot;$&quot;), CONTAINS( Name , &quot;%&quot;), CONTAINS( Name , &quot;^&quot;), CONTAINS( Name , &quot;&amp;&quot;), CONTAINS( Name , &quot;*&quot;), CONTAINS( Name , &quot;(&quot;), CONTAINS( Name , &quot;)&quot;), CONTAINS( Name , &quot;-&quot;), CONTAINS( Name , &quot;+&quot;), CONTAINS( Name , &quot;=&quot;), CONTAINS( Name , &quot;{&quot;), CONTAINS( Name , &quot;}&quot;), CONTAINS( Name , &quot;[&quot;), CONTAINS( Name , &quot;]&quot;), CONTAINS( Name , &quot;|&quot;), CONTAINS( Name , &quot;\\&quot;), CONTAINS( Name , &quot;:&quot;), CONTAINS( Name , &quot;;&quot;), CONTAINS( Name , &quot;&apos;&quot;), CONTAINS( Name , &quot;\&quot;&quot;), CONTAINS( Name , &quot;,&quot;), CONTAINS( Name , &quot;&lt;&quot;), CONTAINS( Name , &quot;.&quot;), CONTAINS( Name , &quot;&gt;&quot;), CONTAINS( Name , &quot;?&quot;), CONTAINS( Name , &quot;/&quot;), CONTAINS( Name , &quot;__&quot;))</errorConditionFormula>
+        <errorDisplayField>Name</errorDisplayField>
+        <errorMessage>No spaces and special characters should be present in Design Name. This field&apos;s value is used to name the Visualforce page.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>NewHTMLComponent</fullName>
+        <availability>online</availability>
+        <description>will pass the name from url</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>New HTML Component</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/_ui/common/page/custom/PageComponentStageManager?Name={!VFd__c.Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Visualforce_page</fullName>
+        <availability>online</availability>
+        <description>Create a new Visualforce page using the generated markup.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>1000</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>New Visualforce page</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://dhillon-developer-edition.my.salesforce.com/066/e?retURL=%2Fapexpages%2Fsetup%2FlistApexPage.apexp</url>
+        <width>1000</width>
+    </webLinks>
+    <webLinks>
+        <fullName>newDeveloperModePage</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>New Developer mode page</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/{!  VFd__c.Name }</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,4241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Manage your CSS styles here.
+It is used in conjunction with VF Designer.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This Code will be generated automatically from the options selected. 
+This code represents code from all the fields.</inlineHelpText>
+        <label>Code</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Color_List_for_Tab_Bar_Background_del__c</fullName>
+        <deprecated>false</deprecated>
+        <description>IN color shades:
+Bluish:
+AliceBlue
+Aqua
+Aquamarine
+Azure
+BlueViolet
+DarkBlue
+CadetBlue
+Cyan
+DarkBlue
+DarkCyan
+DarkSlateBlue
+DarkTurquoise
+DeepSkyBlue
+DodgerBlue
+HoneyDew
+Lavender
+LightBlue
+LightCyan
+LightSkyBlue
+LightSteelBlue
+MediumTurquoise
+MidnightBlue
+Navy
+PaleTurquoise
+PowderBlue
+RoyalBlue
+SlateBlue
+SkyBlue
+SteelBlue
+Turquoise
+
+Greenish:
+Chartreuse
+DarkGreen
+DarkKhaki
+DarkOliveGreen
+DarkSeaGreen
+ForestGreen
+GreenYellow
+HunterGreen
+Khaki
+LawnGreen
+LightGreen
+LimeGreen
+MediumAquamarine
+MediumForestGreen
+MediumSeaGreen
+MediumSpringGreen
+OlivedRab
+PaleGreen
+SeaGreen
+SpringGreen
+YellowGreen</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose from the list of more than 100 color names (HTML Extended Color List reference)</inlineHelpText>
+        <label>Color List for Tab Bar Background</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AliceBlue</fullName>
+                    <color>#0B6FCE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Aqua</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Aquamarine</fullName>
+                    <color>#E27001</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Azure</fullName>
+                    <color>#A845DC</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Beige</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bisque</fullName>
+                    <color>#A53711</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Black</fullName>
+                    <color>#66E9BD</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>BlueViolet</fullName>
+                    <color>#0B24BE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Brown</fullName>
+                    <color>#419249</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Burlywood</fullName>
+                    <color>#B6E32E</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CadetBlue</fullName>
+                    <color>#641CCF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Chartreuse</fullName>
+                    <color>#F96FB7</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Chocolate</fullName>
+                    <color>#2F5D85</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Coral</fullName>
+                    <color>#AFCADF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Crimson</fullName>
+                    <color>#8F6429</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cyan</fullName>
+                    <color>#EFAE73</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DarkBlue</fullName>
+                    <color>#57F17C</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DarkCyan</fullName>
+                    <color>#0B6FCE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DarkGoldenRod</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DarkGray</fullName>
+                    <color>#E27001</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DarkGreen</fullName>
+                    <color>#A845DC</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DarkOrange</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DarkOrchid</fullName>
+                    <color>#A53711</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DarkSeaGreen</fullName>
+                    <color>#66E9BD</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DarkSlateBlue</fullName>
+                    <color>#0B24BE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DarkSlateGray</fullName>
+                    <color>#419249</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DarkViolet</fullName>
+                    <color>#B6E32E</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DimGray</fullName>
+                    <color>#641CCF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DodgerBlue</fullName>
+                    <color>#F96FB7</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FireBrick</fullName>
+                    <color>#2F5D85</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FloraWhite</fullName>
+                    <color>#AFCADF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>ForestGreen</fullName>
+                    <color>#8F6429</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>GhostWhite</fullName>
+                    <color>#EFAE73</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gold</fullName>
+                    <color>#57F17C</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>GoldenRod</fullName>
+                    <color>#0B6FCE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gray</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <color>#E27001</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>GreenCopper</fullName>
+                    <color>#A845DC</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>GreenYellow</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>HoneyDew</fullName>
+                    <color>#A53711</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>HotPink</fullName>
+                    <color>#66E9BD</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>HunterGreen</fullName>
+                    <color>#0B24BE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IndianRed</fullName>
+                    <color>#419249</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Indigo</fullName>
+                    <color>#B6E32E</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ivory</fullName>
+                    <color>#641CCF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Khaki</fullName>
+                    <color>#F96FB7</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LawnGreen</fullName>
+                    <color>#2F5D85</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LemonChiffon</fullName>
+                    <color>#AFCADF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightBlue</fullName>
+                    <color>#8F6429</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightCoral</fullName>
+                    <color>#EFAE73</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightCyan</fullName>
+                    <color>#57F17C</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightGoldenRodYellow</fullName>
+                    <color>#0B6FCE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightGreen</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightGrey</fullName>
+                    <color>#E27001</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightPink</fullName>
+                    <color>#A845DC</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightSalmon</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightSeaGreen</fullName>
+                    <color>#A53711</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightSkyBlue</fullName>
+                    <color>#66E9BD</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightSlateGray</fullName>
+                    <color>#0B24BE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightSteelBlue</fullName>
+                    <color>#419249</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LightYellow</fullName>
+                    <color>#B6E32E</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LimeGreen</fullName>
+                    <color>#641CCF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Linen</fullName>
+                    <color>#F96FB7</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Maroon</fullName>
+                    <color>#2F5D85</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MediumAquamarine</fullName>
+                    <color>#AFCADF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MediumForestGreen</fullName>
+                    <color>#8F6429</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MediumBlue</fullName>
+                    <color>#EFAE73</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MediumPurple</fullName>
+                    <color>#57F17C</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MediumSeaGreen</fullName>
+                    <color>#0B6FCE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MediumSlateBlue</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MediumTurquoise</fullName>
+                    <color>#E27001</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MediumVioletRed</fullName>
+                    <color>#A845DC</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MidnightBlue</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MintCream</fullName>
+                    <color>#A53711</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MistyRose</fullName>
+                    <color>#66E9BD</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Moccasin</fullName>
+                    <color>#0B24BE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>NavajoWhite</fullName>
+                    <color>#419249</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Navy</fullName>
+                    <color>#B6E32E</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>OlivedRab</fullName>
+                    <color>#641CCF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Orange</fullName>
+                    <color>#F96FB7</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>OrangeRed</fullName>
+                    <color>#2F5D85</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Orchid</fullName>
+                    <color>#AFCADF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>PaleGreen</fullName>
+                    <color>#8F6429</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>PaleVioletRed</fullName>
+                    <color>#EFAE73</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>PeachPuff</fullName>
+                    <color>#57F17C</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Peru</fullName>
+                    <color>#0B6FCE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Pink</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Plum</fullName>
+                    <color>#E27001</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>PowderBlue</fullName>
+                    <color>#A845DC</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Purple</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>RoyalBlue</fullName>
+                    <color>#A53711</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Salmon</fullName>
+                    <color>#66E9BD</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sandybrown</fullName>
+                    <color>#0B24BE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>SeaGreen</fullName>
+                    <color>#419249</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Silver</fullName>
+                    <color>#B6E32E</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>SkyBlue</fullName>
+                    <color>#641CCF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>SlateBlue</fullName>
+                    <color>#F96FB7</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>SlateGray</fullName>
+                    <color>#2F5D85</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Snow</fullName>
+                    <color>#AFCADF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>SpringGreen</fullName>
+                    <color>#8F6429</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>SteelBlue</fullName>
+                    <color>#EFAE73</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Tan</fullName>
+                    <color>#57F17C</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Teal</fullName>
+                    <color>#0B6FCE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Tomato</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Turquoise</fullName>
+                    <color>#E27001</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Wheat</fullName>
+                    <color>#A845DC</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>White</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>WhiteSmoke</fullName>
+                    <color>#A53711</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <color>#66E9BD</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>YellowGreen</fullName>
+                    <color>#0B24BE</color>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Font_Family__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select font(s) to be used to display the text. 
+You can select more than one font from the list.
+Some of the fonts may work in one web browser, and not in another. Therefore it is recommended to choose two or more fonts.</inlineHelpText>
+        <label>Font Family</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Arial</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Arial Black</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Book Antiqua</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Charcoal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Comic Sans MS</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Courier</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Courier New</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>cursive</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gadget</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Geneva</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Georgia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Grande</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Helvetica</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Impact</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lucida</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lucida Console</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lucida Sans Unicode</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Monaco</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>monospace</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MS Sans Serif</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MS Serif</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>New York</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Palatino</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Palatino Linotype</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>sans-serif</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>serif</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Symbol</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Tahoma</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Times</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Times New Roman</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Text_Align__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Text Align:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>left</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>right</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>center</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>justify</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Text_Vertical_Align__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Text Vertical Align:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>baseline</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>sub</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>super</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>top</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>text-top</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>middle</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>bottom</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>text-bottom</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Transparency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The overall transparency of the page</inlineHelpText>
+        <label>Transparency</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>addGoogleTransate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The Field is non functional and is present just to indicate that the translation power can be added by adding the HTML Component  &quot;Google Translation&quot; in the Sidebar. Even Adding the Components code in the VF page can add the translation to it.</inlineHelpText>
+        <label>Add Google Transate</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>background_attachment__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sets the background image to scroll or not to scroll with its associated element’s content. The default value is scroll</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sets the background image to scroll or not to scroll with its associated element’s content. The default value is scroll</inlineHelpText>
+        <label>Background Attachment:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>none</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>scroll</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>fixed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>absolute</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>background_color__c</fullName>
+        <deprecated>false</deprecated>
+        <description>http://www.w3schools.com/cssref/css_colors_legal.asp 
+for more info.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Correct values are:
+1	 Color&apos;s name.	 eg: brown, deepskylue
+2	 Hexadecimal format.	 eg: #0d6d99
+3	 rgb(,,)	 eg: rgb(255,0,0)
+4	 rgba	(,,,)	 eg: rgba(16,99,73,0.6)</inlineHelpText>
+        <label>Background Color:</label>
+        <length>35</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>background_image__c</fullName>
+        <deprecated>false</deprecated>
+        <description>background-image:url(&quot;{!$Resource.Green_Flowers}&quot;);
+background-image:url({!URLFOR($Resource.creevykeel, &apos;images/img02.jpg&apos;)});
+Max length 100 characters.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Format: 
+For Image files kept directly in the Static Resources: url({!$Resource.yStaticResourceName});
+For Image files stored in a compressed file in the Static Resources URLFOR($Resource.mycompressedfile, &apos;images/img01.jpg&apos;)
+Max length 100 characters.</inlineHelpText>
+        <label>Background Image:</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>background_position__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Sets the position of background-image:
+Syntax:
+In: x% y%.
+In Xunits Yunits.
+Inherit
+left
+top
+right
+bottom
+center
+left top
+left center
+left bottom
+right top
+right center
+right bottom
+center top
+center center
+center bottom</inlineHelpText>
+        <label>Background Position:</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>background_repeat__c</fullName>
+        <deprecated>false</deprecated>
+        <description>repeat 			: The background image will be repeated both vertically and horizontally. This is default
+repeat-x 		: The background image will be repeated only horizontally
+repeat-y 		: The background image will be repeated only vertically
+no-repeat	 	: The background-image will not be repeated 
+inherit 		: Specifies that the setting of the background-repeat property should be inherited from the parent element</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose from:
+repeat 		: Repeats image both vertically and horizontally. (default)
+repeat-x 		: Repeats image horizontally only
+repeat-y 		: Repeats image vertically only
+no-repeat	 	: No repetition
+inherit		: from parent</inlineHelpText>
+        <label>Background Repeat:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>background_attachment__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>repeat</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>no-repeat</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>repeat-x</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>repeat-y</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>scroll</controllingFieldValue>
+                <controllingFieldValue>fixed</controllingFieldValue>
+                <controllingFieldValue>inherit</controllingFieldValue>
+                <controllingFieldValue>absolute</controllingFieldValue>
+                <valueName>repeat</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>scroll</controllingFieldValue>
+                <controllingFieldValue>fixed</controllingFieldValue>
+                <controllingFieldValue>inherit</controllingFieldValue>
+                <controllingFieldValue>absolute</controllingFieldValue>
+                <valueName>no-repeat</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>scroll</controllingFieldValue>
+                <controllingFieldValue>fixed</controllingFieldValue>
+                <controllingFieldValue>inherit</controllingFieldValue>
+                <controllingFieldValue>absolute</controllingFieldValue>
+                <valueName>inherit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>scroll</controllingFieldValue>
+                <controllingFieldValue>fixed</controllingFieldValue>
+                <controllingFieldValue>inherit</controllingFieldValue>
+                <controllingFieldValue>absolute</controllingFieldValue>
+                <valueName>repeat-x</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>scroll</controllingFieldValue>
+                <controllingFieldValue>fixed</controllingFieldValue>
+                <controllingFieldValue>inherit</controllingFieldValue>
+                <controllingFieldValue>absolute</controllingFieldValue>
+                <valueName>repeat-y</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>border_collapse__c</fullName>
+        <deprecated>false</deprecated>
+        <description>collapse | separate | inherit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specifies which border model should be used in a table.
+collapse: collapsing borders&quot; model:   cells share adjacent borders.
+separate: (default) - &quot;separated borders&quot; model:   cells have their own borders.
+inherit.</inlineHelpText>
+        <label>Border Collapse:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>none</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>collapse</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>separate</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>border_color__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Correct values are:
+1			Color&apos;s name.				eg: brown, deepskylue
+2			Hexadecimal format.		eg: #0d6d99
+3			rgb(,,)					eg: rgb(255,0,0)
+4			rgba	(,,,)					eg: rgba(16,99,73,0.6)
+Visit: http://www.w3schools.com/cssref/css_colors_legal.asp for more info.
+HEXADECIMAL VALUES CONVERTER
+0 1 2 3 4 5 6 7 8 9 a b c d e f
+g h i j k l m n o p q r s t u v
+w x y z
+eg: 0d6d99</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Correct values are:
+1			Color&apos;s name.				eg: brown, deepskylue
+2			Hexadecimal format.		eg: #0d6d99
+3			rgb(,,)					eg: rgb(255,0,0)
+4			rgba	(,,,)					eg: rgba(16,99,73,0.6)
+Visit: http://www.w3schools.com/cssref/css_colors_legal.asp for more info.</inlineHelpText>
+        <label>Border Color</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>border_radius__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Radius for all corners:Eg
+
+12px				: sets all the borders to 12px radius
+1.3em 2cm		: sets top left and bottom right to 1.3em radius and top right nd bottom left to 2cm
+9px 1px 9cm 6px	 : Top left=9px	 Top Right=1px 	Bottom right=9cm 	bottom left=6px</inlineHelpText>
+        <label>Border Radius</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>border_spacing__c</fullName>
+        <deprecated>false</deprecated>
+        <description>choose from the available  options..</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The border-spacing property sets the distance between the borders of adjacent cells.</inlineHelpText>
+        <label>Border spacing</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>1px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>6px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>border_style__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Could be none | dotted | double | groove | hidden | inset | inherit | dashed | outset | ridge | solid.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Could be none | dotted | double | groove | hidden | inset | inherit | dashed | outset | ridge | solid.</inlineHelpText>
+        <label>Border Style:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>none</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>solid</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>groove</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>double</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inset</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>hidden</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>ridge</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>dashed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>outset</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>border_transparency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Set the transparency (in percent) for the page&apos;s border.</inlineHelpText>
+        <label>Border Transparency:</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>border_width__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter Border width in pixels or percentage.</description>
+        <externalId>false</externalId>
+        <label>Border width</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>none</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>auto</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>1px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>6px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>bottom__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines the y (vertical) coordinate for a positioned element, relative to the
+bottom of the enclosing object or browser window.
+Syntax
+bottom: length | percentage | auto | inherit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the y (vertical) coordinate for a positioned element, relative to the
+bottom of the enclosing object or browser window.
+Syntax
+bottom: length | percentage | auto | inherit</inlineHelpText>
+        <label>Position from Bottom:</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>caption_side__c</fullName>
+        <deprecated>false</deprecated>
+        <description>top
+bottom
+inherit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The following</inlineHelpText>
+        <label>Caption Side:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>top</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>bottom</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cfbb__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Should auto generate style code for Body&apos;s background</inlineHelpText>
+        <label>Code for body Background</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cfbo__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Auto-generated code for Borders Outline Margin and Padding, which should come up after saving the records.</inlineHelpText>
+        <label>Code for Border</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cff__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Auto-generated code for Fonts, which should appear after saving the record.</inlineHelpText>
+        <label>Code for Fonts</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cfl__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Auto-generated code for Lists/Enhanced Lists/Tables, which should appear after saving the record.</inlineHelpText>
+        <label>Code for Lists and Tables</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cfpi__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Auto-generated code for text appearance, which should appear after saving the record.</inlineHelpText>
+        <label>Code for Position Item</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>clear__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This property specifies the placement of an element in relation to floating objects.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This property specifies the placement of an element in relation to floating objects. Choose from:
+both | left | none | right | inherit</inlineHelpText>
+        <label>Clear</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>both</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>left</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>none</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>right</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>colorsForBoxShadows__c</fullName>
+        <deprecated>false</deprecated>
+        <description>http://www.w3.org/Style/Examples/007/box-shadow.en.html
+Explains the Box shadow</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify up to six colors to be used in creating shadows.
+Only the following formats for color values are accepted:
+Color Names aqua
+Hex Values #00ffff
+Specify multiple colors by separating them by a Blank space &apos; &apos;. 
+Eg: blue #ffff00 red  #03333</inlineHelpText>
+        <label>Colors For Box Shadows</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>colorsForShadows__c</fullName>
+        <deprecated>false</deprecated>
+        <description>http://www.w3.org/Style/Examples/007/text-shadow.en.html
+Explains the Text shadow</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify up to six colors to be used in creating shadows.
+Only the following formats for color values are accepted:
+Color Names aqua
+Hex Values #00ffff
+Specify multiple colors by separating them by a Blank space &apos; &apos;. 
+Eg: blue #ffff00 red  #03333</inlineHelpText>
+        <label>Colors For Text Shadows</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>display__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter value of color in Hexadecimal format only.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter value of color in Hexadecimal format only. You can ignore the # prefix</inlineHelpText>
+        <label>Display:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Inherit</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Inline</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Block</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>List-item</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>run-in</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inline-block</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>table</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inline-table</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>table-row-group</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>table-header-group</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>table-footer-group</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>table-row</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>table-column-group</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>table-column</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>table-cell</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>table-caption</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>empty_cells__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This property is used to control whether or not borders show on empty table cells.
+Syntax
+empty-cells: hide | show | inherit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Whether or not borders show on empty table cells.
+Syntax
+empty-cells: hide | show | inherit</inlineHelpText>
+        <label>Empty Cells:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>hide</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>show</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>fcg__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>In the next version, this field gets automatically checked in case you modify generated code in any window.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked, the code in various code generation windows would not be updated, and remain as it is. 
+Check this if you want to modify the generated code.</inlineHelpText>
+        <label>Freeze Code Generation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>float__c</fullName>
+        <deprecated>false</deprecated>
+        <description>float property, is used to float an element towards the left or right.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>float property, is used to float an element towards the left or right.</inlineHelpText>
+        <label>Float:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>none</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>left</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>right</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>font_size__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Valid Values are:
+&lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length&gt; | &lt;percentage&gt; | inherit | larger | smaller | xx-small | x-small | small | medium | large | x-large | xx-larger 
+For eg: 
+font-size: 12pt | 1.5em | 110% | inherit | larger | smaller | xx-small | x-small | small | medium | large | x-large | xx-larger</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Valid Values are:
+&lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length&gt; | &lt;percentage&gt; | inherit | larger | smaller | xx-small | x-small | small | medium | large | x-large | xx-larger 
+For eg: 
+font-size: 12pt | 1.5em | 110% | inherit | larger | smaller</inlineHelpText>
+        <label>Font size</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>font_style__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter value of color in Hexadecimal format only.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter value of color in Hexadecimal format only. You can ignore the # prefix</inlineHelpText>
+        <label>Font Style:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>normal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>italic</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>oblique</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>font_variant__c</fullName>
+        <deprecated>false</deprecated>
+        <description>normal | small-caps | inherit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>normal | small-caps | inherit</inlineHelpText>
+        <label>Font variant</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>small-caps</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>normal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>font_weight__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter value of color in Hexadecimal format only.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter value of color in Hexadecimal format only. You can ignore the # prefix</inlineHelpText>
+        <label>Font weight</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>normal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>bold</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>bolder</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>lighter</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>100</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>200</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>300</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>400</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>500</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>600</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>700</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>800</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>900</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>gSTAB__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>A new feature in CSS 3.0, which creates a shadowed affect under the text and the boxes.
+Also it allows users to create multiple shadows (up to 6) for the same text to produce a 3d effect.
+If checked, the fields: Number of Shadows, Colors For Shadow, and space between shadows can be set.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A new feature in CSS 3.0, which creates a shadowed affect under the textt.
+Create up to 6 shadows for the same element to produce a 3d effect.
+If checked, the fields: Number of Shadows, Colors For Shadow, and space b/w shadows can be set.</inlineHelpText>
+        <label>Generate Shadowed Text</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>generateBoxShadows__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>A feature similar to Shadowed Text, which creates a shadowed affect under the containers.
+Create up to 6 shadows for the same box to produce a 3d effect.
+If checked, the fields: Number of Shadows, Colors For Shadow, and space b/w shadows can be set.</inlineHelpText>
+        <label>Generate Box Shadows</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>googleWebFontsName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Though Google</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Name of Google webfont (in Beta Phase) which can be used to display the text and the Links on the page. For more information about Google&apos;s web fonts; visit: http://www.google.com/webfonts#.</inlineHelpText>
+        <label>Google Web Font&apos;s Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Abel</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Abril Fatface</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Aclonica</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Actor</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Aldrich</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Alice</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Alike</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Allan</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Allerta</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Allerta Stencil</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Amaranth</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Amatic</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Andika</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Annie Use Your Telescope</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Anonymous Pro</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Antic</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Anton</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Architects Daughter</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Arimo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Artifika</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Arvo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Asset</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Astloch</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Aubrey</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bangers</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bentham</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bevan</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bigshot One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Black Ops One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bowlby One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bowlby One SC</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Brawler</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Buda</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cabin</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cabin Sketch</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Calligraffitti</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Candal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cantarell</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cardo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Carme</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Carter One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Caudex</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cedarville Cursive</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cherry Cream Soda</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Chewy</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Coda</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Coda Caption</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Comfortaa</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Coming Soon</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Copse</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Corben</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cousine</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Coustard</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Covered By Your Grace</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Crafty Girls</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Crimson Text</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Crushed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cuprum</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Damion</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Dancing Script</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Dawning of a New Day</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Days One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Delius</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Delius Swash Caps</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Delius Unicase</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Didact Gothic</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Droid Sans</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Droid Sans Mono</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Droid Serif</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>EB Garamond</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Expletus Sans</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Fanwood Text</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Federo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Fontdiner Swanky</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Forum</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Francois One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gentium Basic</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gentium Book Basic</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Geo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Geostar</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Geostar Fill</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Give You Glory</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gloria Hallelujah</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Goblin One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Goudy Bookletter 1911</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gravitas One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gruppo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Hammersmith One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Holtwood One SC</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Homemade Apple</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IM Fell Double Pica</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IM Fell Double Pica SC</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IM Fell DW Pica</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IM Fell DW Pica SC</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IM Fell English</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IM Fell English SC</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IM Fell French Canon</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IM Fell French Canon SC</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IM Fell Great Primer</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IM Fell Great Primer SC</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Inconsolata</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Indie Flower</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Irish Grover</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Istok Web</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Josefin Sans</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Josefin Slab</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Judson</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Jura</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Just Another Hand</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Just Me Again Down Here</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Kameron</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Kelly Slab</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Kenia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Kranky</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Kreon</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Kristi</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>La Belle Aurore</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lato</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>League Script</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Leckerli One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lekton</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Limelight</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lobster</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lobster Two</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lora</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Loved by the King</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Love Ya Like A Sister</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Luckiest Guy</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Maiden Orange</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Mako</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Marvel</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Maven Pro</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Meddon</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MedievalSharp</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Megrim</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Merriweather</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Metrophobic</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Michroma</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Miltonian</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Miltonian Tattoo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Modern Antiqua</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Molengo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Monofett</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Monoton</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Montez</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Mountains of Christmas</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Muli</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Neucha</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Neuton</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>News Cycle</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nixie One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nobile</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nothing You Could Do</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nova Cut</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nova Flat</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nova Mono</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nova Oval</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nova Round</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nova Script</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nova Slim</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nova Square</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Numans</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nunito</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>OFL Sorts Mill Goudy TT</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Old Standard TT</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Open Sans</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Open Sans Condensed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Orbitron</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Oswald</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Over the Rainbow</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ovo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Pacifico</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Passero One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Patrick Hand</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Paytone One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Permanent Marker</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Philosopher</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Pinyon</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Play</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Playfair Display</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Podkova</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Pompiere</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Prociono</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>PT Sans</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>PT Sans Caption</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>PT Sans Narrow</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>PT Serif</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>PT Serif Caption</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Puritan</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Quattrocento</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Quattrocento Sans</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Questrial</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Radley</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Raleway</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Rancho</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Rationale</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Redressed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Reenie Beanie</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Rochester</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Rock Salt</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Rokkitt</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Rosario</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ruslan Display</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Satisfy</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Schoolbell</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Shadows Into Light</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Shanti</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Short Stack</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sigmar One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Six Caps</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Slackey</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Smokum</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Smythe</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sniglet</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Snippet</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Special Elite</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Stardos Stencil</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sue Ellen Francisco</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sunshiney</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Swanky and Moo Moo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Syncopate</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Tangerine</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Tenor Sans</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Terminal Dosis Light</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>The Girl Next Door</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Tienne</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Tinos</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Tulpen One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ubuntu</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ultra</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UnifrakturCook</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UnifrakturMaguntia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Unkempt</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Unna</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Varela</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Varela Round</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Vast Shadow</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Vibur</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Vidaloka</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Volkhov</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Vollkorn</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Voltaire</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>VT323</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Waiting for the Sunrise</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Wallpoet</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Walter Turncoat</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Wire One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Yanone Kaffeesatz</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Yellowtail</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Yeseva One</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Zeyada</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>height__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sets the height of an element’s content region.
+Syntax
+height: length | percentage | auto | inherit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sets the height of an element’s content region.
+Syntax
+height: length | percentage | auto | inherit</inlineHelpText>
+        <label>Height</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>left__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines the x (horizontal) coordinate for a positioned element, relative to the
+left side of either the containing element or browser window if directly within the &lt;body&gt;.
+Syntax
+right: length | percentage | auto | inherit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the x (horizontal) coordinate for a positioned element, relative to the
+left side of either the containing element or browser window if directly within the &lt;body&gt;.
+Syntax
+right: length | percentage | auto | inherit</inlineHelpText>
+        <label>Position from Left</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>letter_spacing__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sets amount of spacing between letters. 
+Enter value in length units. For eg: 10px, 2.1em, 1cm, etc. Also you can use the keywords: 
+normal
+inherit
+
+Length values can be negative as well.</description>
+        <externalId>false</externalId>
+        <label>Letter spacing</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>none</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>auto</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>6px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>line_height__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter value in units or percentage. For eg: 10px, 30%, auto, inherit,</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter value in units or percentage. For eg: 10px, 30%, auto, inherit,</inlineHelpText>
+        <label>Line Height</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>list_style_image__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specify the Static Resource to be used as an image
+Format: 
+For Image files kept directly in the Static Resources: 
+url({!$Resource.yStaticResourceName});
+
+For Image files stored in a compressed file in the Static Resources:
+URLFOR($Resource.mycompressedfile,&apos;images/img01.jpg&apos;)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the Static Resource to be used as an image
+Format: 
+For Image files:
+url({!$Resource.yStaticResourceName});
+
+For Image files stored in a compressed file:
+URLFOR($Resource.mycompressedfile,&apos;images/img01.jpg&apos;)
+Max Length: 100.</inlineHelpText>
+        <label>List Style Image:</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>list_style_position__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter value of color in Hexadecimal format only.</description>
+        <externalId>false</externalId>
+        <label>List Style Position:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>inside</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>outside</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>list_style_type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Choose from the list</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the way list items should be displayed.</inlineHelpText>
+        <label>List Style Type:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>none</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>armenian</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>circle</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>cjk-ideographic</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>decimal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>decimal-leading-zero</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>disc</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>georgian</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>hebrew</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>hiragana</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>hiragana-iroha</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>katakana</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>katakana-iroha</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>lower-alpha</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>lower-greek</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>lower-latin</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>lower-roman</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>square</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>upper-alpha</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>upper-latin</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>upper-roman</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>margin__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sets a consistent margin on all four sides of the affected element. Eg:
+{margin: 15pt;} /* all sides 15pt */
+{margin: 20px 10px;} /* 20px top-bottom, 10px left-right */
+{margin: 10px 10px 5px 10px;}
+/* 10px top, 10px right 5px bottom, 10px left */</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sets a consistent margin on all four sides of the affected element. Eg:
+{margin: 15pt;} /* all sides 15pt */
+{margin: 20px 10px;} /* 20px top-bottom, 10px left-right */
+{margin: 10px 10px 5px 10px;}
+/* 10px top, 10px right 5px bottom, 10px left */</inlineHelpText>
+        <label>Margin</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>max_width__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter Width in pixels or percentage.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter Width in pixels or percentage.</inlineHelpText>
+        <label>Maximum Width:</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>min_width__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter Width in pixels or percentage.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter Width in pixels or percentage.</inlineHelpText>
+        <label>Minimum Width:</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>numberOfBoxShadows__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The number can be set to 1, 2,3,4,5, or 6.</inlineHelpText>
+        <label>Number of Box Shadows</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>numberOfShadows__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The number can be set to 1, 2,3,4,5, or 6.</inlineHelpText>
+        <label>Number of Shadows</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>gSTAB__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>0</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>5</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>6</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>outline_Transparency__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Set the transparency (in percent) for the Page&apos;s outline.  This property can be used to make input fields, buttons, etc stand out in a Page. Also it is different from Borders as :
+Outlines do not take up space.
+Outlines may be non-rectangular.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set the transparency (in percent) for the Page&apos;s outline.  This property can be used to make input fields, buttons, etc stand out in a Page. Also it is different from Borders as :
+Outlines do not take up space.
+Outlines may be non-rectangular.</inlineHelpText>
+        <label>Outline&apos;s Transparency</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>outline_color__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This property can be used to make input fields, buttons, etc stand out in a Page. Also it is different from Borders as :
+Outlines do not take up space
+Outlines may be non-rectangular.
+
+Correct values are:
+1			Color&apos;s name.				eg: brown, deepskylue
+2			Hexadecimal format.		eg: #0d6d99
+3			rgb(,,)					eg: rgb(255,0,0)
+4			rgba	(,,,)					eg: rgba(16,99,73,0.6)
+Visit: http://www.w3schools.com/cssref/css_colors_legal.asp for more info.
+HEXADECIMAL VALUES CONVERTER
+0 1 2 3 4 5 6 7 8 9 a b c d e f
+g h i j k l m n o p q r s t u v
+w x y z
+eg: 0d6d99</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Correct values are:
+1			Color&apos;s name.				eg: brown, deepskylue
+2			Hexadecimal format.		eg: #0d6d99
+3			rgb(,,)					eg: rgb(255,0,0)
+4			rgba	(,,,)					eg: rgba(16,99,73,0.6)
+Visit: http://www.w3schools.com/cssref/css_colors_legal.asp for more info.</inlineHelpText>
+        <label>Outline Color</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>outline_style__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select a style for the Page&apos;s outline. Outline property can be used to make input fields, buttons, etc stand out in a Page. Also it is different from Borders as :
+Outlines do not take up space
+Outlines may be non-rectangular</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines a style for an element’s outline.
+Syntax
+outline-style: dashed | dotted | double | groove | inset | none | outset |
+ridge | solid | inherit</inlineHelpText>
+        <label>Outline Style:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>none</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>dashed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>solid</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>dotted</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>double</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>groove</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inset</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>outset</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>ridge</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>outline_width__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter Width in pixels or percentage.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set the Width for the Page&apos;s outline. Outline property can be used to make input fields, buttons, etc stand out in a Page. Also it is different from Borders as :
+Outlines do not take up space
+Outlines may be n</inlineHelpText>
+        <label>Outline Width:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>none</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>auto</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>6px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>overflow__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Determines an element’s behavior when its content doesn’t fit into the space
+defined by the element’s other properties</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Determines an element’s behavior when its content doesn’t fit into the space
+defined by the element’s other properties</inlineHelpText>
+        <label>Pos Item&apos;s Overflow</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>auto</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>hidden</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>scroll</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>visible</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>padding__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sets a consistent padding on all four sides of the affected element. Eg:
+{padding: 15pt;} /*all sides 15pt*/
+{padding: 20px 10px;} /*20px top-bottom, 10px left-right*/
+{padding: 10px 10px 5px 10px;}
+/*10px top, 10px right 5px bottom, 10px left*/</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sets a consistent padding on all four sides of the affected element. Eg:
+{padding: 15pt;} /*all sides 15pt*/
+{padding: 20px 10px;} /*20px top-bottom, 10px left-right*/
+{padding: 10px 10px 5px 10px;}
+/*10px top, 10px right 5px bottom, 10px left*/</inlineHelpText>
+        <label>Padding</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>position__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines how an element is positioned relative to other elements.
+Syntax
+position: absolute | fixed | relative | static | inherit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines how an element is positioned relative to other elements.
+Syntax
+position: absolute | fixed | relative | static | inherit</inlineHelpText>
+        <label>Position</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>absolute</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>fixed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>relative</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>static</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>right__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines the x (horizontal) coordinate for a positioned element, relative to the
+right side of either the containing element or browser window if directly within the &lt;body&gt;.
+Syntax
+right: length | percentage | auto | inherit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the x (horizontal) coordinate for a positioned element, relative to the
+right side of either the containing element or browser window if directly within the &lt;body&gt;.
+Syntax
+right: length | percentage | auto | inherit</inlineHelpText>
+        <label>Position from Right:</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>spaceBetweenBoxShadows__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The value selected would be used to position multiple shadows.
+
+Note: Selecting 2px would result in a gap of 2 pixels from both X and Y axis (towards bottom right). Similarly, selecting -5px will produce the shadows moving towards top left side.</inlineHelpText>
+        <label>Space Between Box Shadows</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>-7px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>-6px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>-5px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>-4px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>-3px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>-2px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>-1px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>0px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>1px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>3px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>5px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>6px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>7px</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>spaceBetweenShadows__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Note: Selecting 2px would result in a gap of 2 pixels from both X and Y axis, and shadow would appear towards the Bottom Right portion of the page. For eg: to display 5 shadows for an element at position X and Y with a gap of 3px would position the shadows in such a way:
+
+Shadow 1: Position (X+3,Y+3)
+Shadow 2: Position (X+6,Y+6)
+Shadow 3: Position (X+9,Y+9)
+Shadow 4: Position (X+12,Y+12)
+Shadow 5: Position (X+15,Y+15)
+Shadow 1Pos(X+3,Y+3)
+Shadow 1Pos(X+3,Y+3)
+
+Similarly, selecting  -5px will produce the shadow at upper left hand side.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value selected would be used to position multiple shadows.
+
+Note: Selecting  2px would result in a gap of 2 pixels from both X and Y axis (towards bottom right). Similarly, selecting  -5px will produce the shadows moving towards top left side.</inlineHelpText>
+        <label>Space Between Shadows</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>-7px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>-6px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>-5px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>-4px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>-3px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>-2px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>-1px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>0px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>1px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>3px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>5px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>6px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>7px</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>table_layout__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The algorithm using which a table is displayed on a page.
+Auto:     (Default). The cell&apos;s width is dependent on the Contents of the widest cell. 
+Fixed:    Faster than Auto. a cell&apos;s width is dependent on only the First Row.
+inherit:</inlineHelpText>
+        <label>Table Layout</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>auto</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>fixed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>text_color__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Correct values are:
+1			Color&apos;s name.				eg: brown, deepskylue
+2			Hexadecimal format.		eg: #0d6d99
+3			rgb(,,)					eg: rgb(255,0,0)
+4			rgba	(,,,)					eg: rgba(16,99,73,0.6)
+Visit: http://www.w3schools.com/cssref/css_colors_legal.asp for more info.
+HEXADECIMAL VALUES CONVERTER
+0 1 2 3 4 5 6 7 8 9 a b c d e f
+g h i j k l m n o p q r s t u v
+w x y z
+eg: 0d6d99</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Correct values are:
+1			Color&apos;s name.				eg: brown, deepskylue
+2			Hexadecimal format.		eg: #0d6d99
+3			rgb(,,)					eg: rgb(255,0,0)
+4			rgba	(,,,)					eg: rgba(16,99,73,0.6)
+Visit: http://www.w3schools.com/cssref/css_colors_legal.asp for more info.</inlineHelpText>
+        <label>Text Color</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>text_decoration__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>text_decoration:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>none</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>underline</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>overline</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>line-through</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>blink</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>text_direction__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose what should b the Direction of the text displayed on the page.
+
+ltr= Left to Right. 
+rtl = Right to Left. Languages Arabian, Urdu, Hebrew, Yiddish, etc. use the rtl approach.
+inherit=  Receives  value from the parent component.</inlineHelpText>
+        <label>text direction:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>ltr</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>rtl</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>text_indent__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the value in px, pt, cm, em, 50%, etc. Also inherit works well.</inlineHelpText>
+        <label>text indent:</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>text_transform__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Text Transform:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>none</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>capitalize</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>uppercase</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>lowercase</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>text_white_space__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>text white space:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>normal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>nowrap</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>pre</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>pre-line</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>pre-wrap</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>top__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This property defines the y (vertical) coordinate for a positioned element, relative to the top
+of the enclosing object or browser window.
+Syntax
+left: length | percentage | auto | inherit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This property defines the y (vertical) coordinate for a positioned element, relative to the top
+of the enclosing object or browser window.
+Syntax
+left: length | percentage | auto | inherit</inlineHelpText>
+        <label>Position from Top</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>visibility__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose the Visibility</inlineHelpText>
+        <label>Visibility</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>visible</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>hidden</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>collapse</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>white_space__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Controls how spaces, tabs, and newline characters are handled in an element.
+Syntax
+white-space: normal | pre | nowrap | pre-wrap | pre-line | inherit</inlineHelpText>
+        <label>white space:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>normal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>pre</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>nowrap</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>pre-wrap</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>pre-line</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>inherit</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>word_spacing__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose from the available options. To set it to another value, choose Custom. Valid values are:
+length (eg. 9px,1.5em,10pt, 1cm) | percentage (eg: 120%,75%) | auto | inherit</inlineHelpText>
+        <label>Word Spacing:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Auto</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>1px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>6px</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Inherit</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2px</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>word_wrap__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter value of color in Hexadecimal format only. You can ignore the # prefix</inlineHelpText>
+        <label>Word Wrap:</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>normal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>break-word</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>z_index__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines a layering or stacking context for positioned elements.
+Syntax
+z-index: integer | auto | inherit
+By default, overlapping positioned elements stack in the order in which they are defined in
+a markup document. This property can override default layering by assigning numeric
+layering values to an element, with higher numbers layering above lower numbers. The auto value tries to determine the z-placement of an element
+automatically by its markup position in the document.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines a layering/stacking context for positioned elements.
+Syntax: +/- integer | auto | inherit
+Eg -99
+An element with bigger z-index stays over the one with a lower one.
+Make sure you select the position of that element as either Fixed, or Absolute</inlineHelpText>
+        <label>Z Index:</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Style</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>background_color__c</columns>
+        <columns>text_color__c</columns>
+        <columns>background_image__c</columns>
+        <columns>Code__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>background_attachment__c</columns>
+        <columns>Transparency__c</columns>
+        <columns>word_wrap__c</columns>
+        <columns>z_index__c</columns>
+        <columns>OBJECT_ID</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All1</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Style Name:</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Styles</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Zindex_and_Position_Rule</fullName>
+        <active>false</active>
+        <description>Z-index and Position Rule.
+if z-index has been selected, position item should be set to absolute or fixed.
+else throw the error</description>
+        <errorConditionFormula>background_position__c  = &apos;haha&apos;</errorConditionFormula>
+        <errorMessage>if z-index has been selected, CarboniteCCPack__position__c should be set to either absolute or fixed.</errorMessage>
+    </validationRules>
+</CustomObject>

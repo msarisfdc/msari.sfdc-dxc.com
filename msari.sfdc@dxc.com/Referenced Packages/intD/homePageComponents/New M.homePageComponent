@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;br&gt;.multiforce, .multiforce *, .multiforce:hover, 
+.multiforce *:hover,.menuButton, .menuButtonRounded, .menuButton:hover, 
+.menuButtonRounded:hover, .menuButtonOver, 
+.menuButtonOver:hover{background-image: none 
+!important;background-color: 
+#FFF0A3!important;}.bodyDiv,#contentWrapper,.sfdcBody,#phSearchInput,#phHeader,#AppBodyHeader,div#tsidButton,div#tsidButton:hover,table#phSearchInput_autoCompleteTableId,.menuButtonMenu,.menuButtonMenuLink,#usaid-brDropdown,.autoCompleteRow,.autoCompleteHoverRow,.searchBoxClearContainer,span.newHelpTrainingLinkText,.autoCompleteSectionRow,#phChangeScopeLink,#phSearchInput_autoCompleteTableId,#searchScopeDialog,#phSearchInput_autoCompleteRowId_0,#phSearchInput_autoCompleteRowId_1,#phHeader,#phSearchInput_autoCompleteRowId_2,#phSearchInput_autoCompleteRowId_3,#phSearchInput_autoCompleteRowId_4,#phSearchInput_autoCompleteRowId_5,#phSearchInput_autoCompleteRowId_6,#phSearchInput_autoCompleteRowId_7,#phSearchInput_autoCompleteRowId_8,#phSearchInput_autoCompleteRowId_9,#phSearchInput_autoCompleteBoxId,.footerRow,.bPageFooter,.noTableFooter,.bPageFooter
+ *,.noTableFooter *,.queryText,h1, h2, 
+h3,#createNewLabel,.sidebarModuleHeader,.recycleBinModule,#tagsMru,.x-panel,.x-grid-panel,.individualPalette,th.noRowsHeader,.listViewportWrapper,.listViewport,.even,.dataCell,tr.dataRow
+ th,data2Col,.pbBody,.pbBody a,.pbBody td,.list,tr.dataRow 
+td.labelCol,.dataCol,tr.dataRow 
+td,#sidebarCell,#handlebarContainer,#pinIndicator,#pinIndicator2,#handle,#sidebarDiv,#createNew,#createNewButton,#createNewLabel,#tagsMruLabel,span#tagsMruLabel,.nestedModule,.linksModule,.messageModule,.mruHoverLoading,.sidebarModule,.nestedModuleInner,.recentItemModule,.menuButtonButton,.SidebarShortcut,.sidebarModuleHeader,.Custom50Block,.sidebarModuleBody,.sidebarModuleBodyNoHeader,.createNewMenu,.Custom108Mru,.menuButtonMenuLink,.mruList,.individualPalette,.tagsMruMenu,.mruHoverDetail,.mruHoverLoading,.Custom50Block,.sidebarModuleBody,.sidebarModuleBodyNoHeader,.RLPanel,#tsidMenu,.RLPanel
+ 
+*,h3,.userProfileHoverContent,.helpText,table.userProfileHoverDetailTable,.datePicker,.dateBar,.calBody,.inlineEditModified,RLHoverFrame,RLHoverFrame
+ *,.secondaryPalette,.dataCol,.btn,body .x-btn button,body .btn,body 
+.btnImportant,body .btnDisabled,body .btnCancel,body .menuButton 
+.menuButtonButton,body .menuButton .menuButtonMenu a,body .menuButton 
+.menuButtonMenu input.theOption,h1, h2, h3, h4, h5, h6,.reportTab 
+.bWizardBlock .pbWizardTitle,.reportTab .bWizardBlock .chartStep 
+.pbDescription,.bWizardBlock .pbBody .bPageBlock .pbLinks a 
+span,.chatterShowHideFeed a,.chatterFollowUnfollow .followLink a 
+.linkText,body.allTabTab .bPageTitle .ptBody .content,body.allTabTab 
+.bDescription,.sysAdminTab .bPageTitle .ptBody .content,.homeTab 
+.bPageTitle .ptBody .content,.labelCol,.allTabTab .bPageTitle .ptBody 
+.content, #userNav *,#userNav,body .bPageBlock .pbHeader .pbHelp .help 
+a.linkCol.linkSpan,body .bPageBlock .pbBody .pbSubblock .pbSubbody a 
+.helpLink,body .bWizardBlock a .helpLink,body .bPageTitle .tagDropDown 
+.tagDropDownContent .tagHelp a span,body .bMyDashboard .pbHeader .pbHelp
+ a,.dataCol {background-color: #FFF0A3!important;}</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>narrow</width>
+</HomePageComponent>
